@@ -1,0 +1,55 @@
+header{
+    height: 70px;
+    background-color: #d72323;
+    color: #eeeeee;
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    height: 40px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+#profil{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px 5px 0 0;
+    min-width: 150px;
+}
+#profil:hover{
+    background-color: #3a4750;
+    cursor: pointer;
+}
+#nameProfil{
+    margin-left: 10px;
+}
+#disconnect{
+    position: absolute;
+    background-color: #3a4750;
+    width: 150px;
+    padding: 10px 15px;
+    margin-left: -15px;
+    top: 60px;
+    border-top: 3px #3a4750 solid;
+    border-radius: 0 0 5px 5px;
+    display: none;
+    text-align: center;
+}
+#disconnect:hover{
+    background-color: #303841;
+    cursor: pointer;
+}
+#profil:hover #disconnect{
+    display: block;
+}

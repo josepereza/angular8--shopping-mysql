@@ -1,0 +1,20 @@
+#homeshop{
+    text-align: center;
+    padding: 20px;
+}
+#homeshop h2{
+    margin: 20px;
+}
+#imgHomeShop{
+    width: 200px;
+    height: 200px;
+    background-image: url('img/cart.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+#homeshop p{
+    font-size: 18px;
+    margin: 20px;
+}
