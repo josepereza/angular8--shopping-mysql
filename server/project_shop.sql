@@ -166,7 +166,7 @@ CREATE TABLE `users` (
 
 
 INSERT INTO `users` (`t_z`, `first_name`, `last_name`, `mail`, `password_hach`, `city`, `adress`, `admin`) VALUES
-(131313131, 'aa', 'bb', 'aa@gmail.com', '$2a$10$UZ56MvuGoaXSevBVP3hn.efp9nJNmAkE/QB0SWIOU//VRH33nRj0i', 'jerusalem', '160 hanurit', 0),
+(131313131, 'aa', 'bb', 'aa@gmail.com', '$2a$10$UZ56MvuGoaXSevBVP3hn.efp9nJNmAkE/QB0SWIOU//VRH33nRj0i', 'jerusalem', '160 hanurit', 0);
 
 
 ALTER TABLE `carts`
